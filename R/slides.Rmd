@@ -1,0 +1,12 @@
+---
+title: "R Tutorial"
+author: "Emir Turkes"
+date: "March 31, 2020"
+output:
+  revealjs::revealjs_presentation:
+    transition: slide
+knit: (function(inputFile, encoding) {
+  rmarkdown::render(
+    inputFile, encoding = encoding, output_file = file.path("..", "results", "R-tutorial.html")
+  )})
+---
