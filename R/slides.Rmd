@@ -48,3 +48,14 @@ knit: (function(inputFile, encoding) {
 > - RStudio Desktop for your PC and RStudio Server for running remotely or through containers.
 > - Free version is fine, paid version only needed for very specific use cases.
 > - ![](../assets/images/rstudio.png)
+
+## Resources
+- [https://osca.bioconductor.org/](https://osca.bioconductor.org/)
+- [https://scrnaseq-course.cog.sanger.ac.uk/website/index.html](https://scrnaseq-course.cog.sanger.ac.uk/website/index.html)
+- [https://adv-r.hadley.nz/index.html](https://adv-r.hadley.nz/index.html)
+- [https://rstats.wtf/](https://rstats.wtf/)
+- [https://bookdown.org/yihui/rmarkdown/](https://bookdown.org/yihui/rmarkdown/)
+- [https://www.burns-stat.com/pages/Tutor/R_inferno.pdf](https://www.burns-stat.com/pages/Tutor/R_inferno.pdf)
+- [https://google.github.io/styleguide/Rguide.html](https://google.github.io/styleguide/Rguide.html)
+- [https://jef.works/R-style-guide/](https://jef.works/R-style-guide/)
+- [https://cran.r-project.org/web/packages/rockchalk/vignettes/Rstyle.pdf](https://cran.r-project.org/web/packages/rockchalk/vignettes/Rstyle.pdf)
