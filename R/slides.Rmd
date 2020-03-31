@@ -76,7 +76,7 @@ options(repos = repos)
 
 # Project Structure
 ## [https://github.com/eturkes/R-template](https://github.com/eturkes/R-template)
-- ![](../assets/images/Screenshot from 2020-03-31 05-13-27.png)
+- ![](../assets/images/Screenshot from 2020-03-31 07-54-27.png)
 
 ## Components
 > - **Git** ([https://git-scm.com/](https://git-scm.com/)) and **Github** ([https://github.com/](https://github.com/)).
