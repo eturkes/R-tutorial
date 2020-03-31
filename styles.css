@@ -1,0 +1,19 @@
+<style>
+
+/* Reduce font size */
+.reveal pre code {
+  	font-size: 80%;
+}
+.reveal pre  {
+	font-size: 80%;
+}
+.reveal .slides {
+    font-size: 80%;
+}
+
+/* Remove bullets */
+.reveal ul {
+    list-style-type: none;
+}
+
+</style>

@@ -4,9 +4,14 @@ author: "Emir Turkes"
 date: "March 31, 2020"
 output:
   revealjs::revealjs_presentation:
+    css: ../styles.css
     transition: slide
+    center: true
+    reveal_options:
+      slideNumber: true
 knit: (function(inputFile, encoding) {
   rmarkdown::render(
-    inputFile, encoding = encoding, output_file = file.path("..", "results", "R-tutorial.html")
+    inputFile, encoding = encoding,
+    output_file = normalizePath(file.path("..", "results", "R-tutorial.html"))
   )})
 ---
