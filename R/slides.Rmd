@@ -15,3 +15,36 @@ knit: (function(inputFile, encoding) {
     output_file = normalizePath(file.path("..", "results", "R-tutorial.html"))
   )})
 ---
+
+# What and Why?
+
+## What is R?
+> - R is a free and open-source statistical programming language.
+> - Main source is at CRAN: [https://cran.r-project.org/](https://cran.r-project.org/)
+> - ![](../assets/images/Screenshot from 2020-03-30 18-52-15.png)
+
+## Why use R?
+> - Very active ecosystem and the reference implementation of many statistical methods.
+> - Programming languages offer the highest level of reproducibility, documentation, and flexibility.
+> - ![](../assets/images/Screenshot from 2020-03-30 20-15-00.png)
+
+# How?
+
+## Getting R
+### Three main distributions (all free)
+> 1. **CRAN**: [https://cran.r-project.org/](https://cran.r-project.org/)
+>    + PROS: The main distribution *(recommended to start with)*.
+>    + CONS: No additional features.
+> 2. **MRO**: [https://mran.microsoft.com/open](https://mran.microsoft.com/open)
+>    + PROS: Faster, snapshotted versions, default in Docker.
+>    + CONS: Windows & Linux only, site goes down frequently.
+> 3. **Conda**: [https://docs.conda.io/en/latest/](https://docs.conda.io/en/latest/)
+>    + PROS: Built-in virtual environments, can use alongside Python.
+>    + CONS: Buggiest and least official.
+
+## Getting an IDE (integrated development environment)
+### RStudio "the premier IDE for R"
+> - [https://rstudio.com/](https://rstudio.com/)
+> - RStudio Desktop for your PC and RStudio Server for running remotely or through containers.
+> - Free version is fine, paid version only needed for very specific use cases.
+> - ![](../assets/images/rstudio.png)
