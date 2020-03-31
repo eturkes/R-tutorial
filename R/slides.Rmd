@@ -1,6 +1,7 @@
 ---
 title: "R Tutorial"
-author: "Emir Turkes"
+subtitle: "Emir Turkes, PhD Student"
+author: "Duff Lab, UK DRI at UCL"
 date: "March 31, 2020"
 output:
   revealjs::revealjs_presentation:
