@@ -73,6 +73,8 @@ options(repos = repos)
 - [https://google.github.io/styleguide/Rguide.html](https://google.github.io/styleguide/Rguide.html)
 - [https://jef.works/R-style-guide/](https://jef.works/R-style-guide/)
 - [https://cran.r-project.org/web/packages/rockchalk/vignettes/Rstyle.pdf](https://cran.r-project.org/web/packages/rockchalk/vignettes/Rstyle.pdf)
+- [https://github.com/eturkes/R-tutorial](https://github.com/eturkes/R-tutorial)
+- [https://github.com/eturkes/R-template](https://github.com/eturkes/R-template)
 
 # Project Structure
 ## [https://github.com/eturkes/R-template](https://github.com/eturkes/R-template)
@@ -84,6 +86,7 @@ options(repos = repos)
 > - **Singularity** ([https://sylabs.io/](https://sylabs.io/))
 > - **renv** ([https://rstudio.github.io/renv/articles/renv.html](https://rstudio.github.io/renv/articles/renv.html)).
 > - **Cloud Storage** (Google Drive, Dropbox, Amazon S3, etc.).
+> - **R Markdown** ([https://rmarkdown.rstudio.com/](https://rmarkdown.rstudio.com/)).
 > - **BibTeX** ([http://www.bibtex.org/](http://www.bibtex.org/)) and **Zotero** ([https://www.zotero.org/](https://www.zotero.org/)).
 
 # Repositories
