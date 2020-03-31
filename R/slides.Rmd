@@ -16,6 +16,20 @@ knit: (function(inputFile, encoding) {
   )})
 ---
 
+```{r, include = FALSE}
+options(stringsAsFactors = FALSE)
+packages <- c("conflicted", "DT")
+invisible(suppressPackageStartupMessages(lapply(packages, library, character.only = TRUE)))
+source(file.path(getwd(), "utils.R"))
+
+# Mirror cannot be found when installing in Knitr without this set.
+# -----------------------------------------------------------------
+repos = getOption("repos")
+repos["CRAN"] <- "http://cran.us.r-project.org"
+options(repos = repos)
+# -----------------------------------------------------------------
+```
+
 # What and Why?
 
 ## What is R?
@@ -32,13 +46,13 @@ knit: (function(inputFile, encoding) {
 
 ## Getting R
 ### Three main distributions (all free)
-> 1. **CRAN**: [https://cran.r-project.org/](https://cran.r-project.org/)
+> 1. **CRAN** ([https://cran.r-project.org/](https://cran.r-project.org/)).
 >    + PROS: The main distribution *(recommended to start with)*.
 >    + CONS: No additional features.
-> 2. **MRO**: [https://mran.microsoft.com/open](https://mran.microsoft.com/open)
+> 2. **MRO** ([https://mran.microsoft.com/open](https://mran.microsoft.com/open)).
 >    + PROS: Faster, snapshotted versions, default in Docker.
 >    + CONS: Windows & Linux only, site goes down frequently.
-> 3. **Conda**: [https://docs.conda.io/en/latest/](https://docs.conda.io/en/latest/)
+> 3. **Conda** ([https://docs.conda.io/en/latest/](https://docs.conda.io/en/latest/)).
 >    + PROS: Built-in virtual environments, can use alongside Python.
 >    + CONS: Buggiest and least official.
 
@@ -59,3 +73,31 @@ knit: (function(inputFile, encoding) {
 - [https://google.github.io/styleguide/Rguide.html](https://google.github.io/styleguide/Rguide.html)
 - [https://jef.works/R-style-guide/](https://jef.works/R-style-guide/)
 - [https://cran.r-project.org/web/packages/rockchalk/vignettes/Rstyle.pdf](https://cran.r-project.org/web/packages/rockchalk/vignettes/Rstyle.pdf)
+
+# Project Structure
+## [https://github.com/eturkes/R-template](https://github.com/eturkes/R-template)
+- ![](../assets/images/Screenshot from 2020-03-31 05-13-27.png)
+
+## Components
+> - **Git** ([https://git-scm.com/](https://git-scm.com/)) and **Github** ([https://github.com/](https://github.com/)).
+> - **Docker** ([https://www.docker.com/](https://www.docker.com/)) and **Docker Hub** ([https://hub.docker.com/](https://hub.docker.com/)).
+> - **Singularity** ([https://sylabs.io/](https://sylabs.io/))
+> - **renv** ([https://rstudio.github.io/renv/articles/renv.html](https://rstudio.github.io/renv/articles/renv.html)).
+> - **Cloud Storage** (Google Drive, Dropbox, Amazon S3, etc.).
+> - **BibTeX** ([http://www.bibtex.org/](http://www.bibtex.org/)) and **Zotero** ([https://www.zotero.org/](https://www.zotero.org/)).
+
+# Repositories
+## CRAN
+```{r}
+install.packages("conflicted")
+```
+
+## Bioconductor
+```{r}
+BiocManager::install("BiocCheck")
+```
+
+## Github
+```{r}
+devtools::install_github("eturkes/eturkesRutils")
+```
